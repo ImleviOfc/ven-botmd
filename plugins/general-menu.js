@@ -101,8 +101,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
    conn.sendButton(m.chat, `*${wish()}, ${name} 👋*`, text.trim(), await genProfile(conn, m), [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], false, { quoted: fkon, contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/bot_whangsaf",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/bot_whangsaf", 
-    title: 'Simple Bot Esm',
+    description: "https://github.com/ImleviOfc", 
+    title: 'VEN BOT',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
